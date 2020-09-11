@@ -1,0 +1,6 @@
+Sep 11 2020 06:10:35
+{"Number":2,"Message":"rmdir(C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\all-in-one-wp-migration\\storage\\nddxvlnpldgw): Directory not empty","File":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filesystem\\class-ai1wm-directory.php","Line":72}
+
+Sep 11 2020 06:10:36
+{"Number":2,"Message":"filesize(): stat failed for C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\all-in-one-wp-migration\\storage\\nddxvlnpldgw\\localhost-wordpress-20200911-060946-0xhrz0.wpress","File":"C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-archiver.php","Line":231}
+
