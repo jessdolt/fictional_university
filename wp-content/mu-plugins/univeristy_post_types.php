@@ -100,6 +100,20 @@ function university_post_types() {
       'menu_icon' => 'dashicons-heart'
     ));
 
+    register_post_type('homeimageslide', array(
+      'supports' => array('title'),
+      'public' => false,
+      'show_ui' => true,
+      'labels' => array(
+        'name' => 'Home Image Slides',
+        'add_new_item' => 'Add New Home Image Slide',
+        'edit_item' => 'Edit Home Image Slide',
+        'all_items' => 'All Home Image Slides',
+        'singular_name' => 'Home Image Slide'
+      ),
+      'menu_icon' => 'dashicons-images-alt2'
+    ));
+
   }
   
   add_action('init', 'university_post_types');
